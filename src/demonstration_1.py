@@ -22,4 +22,10 @@ There is no index that satisfies the conditions in the problem statement.
 """
 def pivot_index(nums):
     # Your code here
+    totals = sum(nums)
+    left_totals = 0
+    for index, num in enumurated(nums):
+        if left_totals = (toatls - left_totals - num):
+            return index
+    return -1
 
